@@ -34,5 +34,8 @@ $('header').toggleClass('toggle');
  }
  }
 
+setTimeout((hello) => {
+  document.location.reload();
+},500 );
 
 
