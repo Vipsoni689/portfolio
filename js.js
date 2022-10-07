@@ -25,19 +25,20 @@ $('header').toggleClass('toggle');
 
 });
 
+//  function hello(){
+//      let a= confirm("Are you like my web page ?");
+//      if(a){
+//      
+//  }else{
+//      alert("Sorry");
+//  }
+//  }
 
 const btn = document.getElementById('btn');
 
 btn.addEventListener('click', function handleClick(event) {
   event.preventDefault();
-    function hello(){
-     let a= confirm("Are you like my web page ?");
-     if(a){
-     alert("Thanks you very much!");
- }else{
-     alert("Sorry");
- }
- }
+  alert("Thanks you very much!");
 
 });
 
