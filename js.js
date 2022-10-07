@@ -24,8 +24,13 @@ $('header').toggleClass('toggle');
     });
 
 });
-function hello(){
 
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function handleClick(event) {
+  event.preventDefault();
+    function hello(){
      let a= confirm("Are you like my web page ?");
      if(a){
      alert("Thanks you very much!");
@@ -33,11 +38,6 @@ function hello(){
      alert("Sorry");
  }
  }
-
-const btn = document.getElementById('btn');
-
-btn.addEventListener('click', function handleClick(event) {
-  event.preventDefault();
 
 });
 
