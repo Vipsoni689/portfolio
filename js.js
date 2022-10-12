@@ -24,18 +24,15 @@ $('header').toggleClass('toggle');
     });
 
 });
+function hello(){
 
- function hello(){
-     let a= confirm("Are you like my web page ?");
-     if(a){
-     alert("Thanks you very much!");
+    var a= confirm("Are you like my web page");
+     if(a)
+     {
+     alert("Thanks you very much");
  }else{
-     alert("Sorry");
- }
+     alert("SORRY");
  }
 
-setTimeout((hello) => {
-  document.location.reload();
-},500 );
-
+ }
 
