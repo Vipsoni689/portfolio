@@ -59,14 +59,18 @@ header{
 
 header .user img{
     height: 20rem;
-    width: 17rem;
+    width: 20rem;
     border-radius: 41%;
    object-fit:cover;
    margin-bottom: 1rem;
    border: 0.5rem solid var(--yellow);
    padding-left:-1em;
+   transition: 3s;
 
 }
+ /* .user img:hover{
+    transform: rotate3d(1,1,1,360deg);
+} */
 header .user .name{
     font-size: 3.5rem;
     color: #fff;
@@ -259,6 +263,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    margin-top: 50px;
 
 }
 
@@ -309,6 +314,8 @@ flex-wrap: wrap;
     
 }
 
+
+
 .portfolio .box-container{
     display:flex;
     align-items: center;
@@ -333,7 +340,7 @@ flex-wrap: wrap;
 
 }
 .portfolio .box-container .box:hover img{
-    transform:rotate(360deg);
+    transform:scale(2);
 }
 
 .contact .raw{
